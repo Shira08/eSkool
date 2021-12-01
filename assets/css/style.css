@@ -1,0 +1,288 @@
+:root {
+  --yellow: #f0d122;
+  --blue: #0338ac;
+  --small: 12px;
+  --weight: 600;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bgimg {
+ /* background-image: url("../img/BC-Blog_OnlineLearningChallenges_6.17.20_FTR.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 600px;*/
+}
+.bgimg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.nav-link {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.services-title
+{
+  color: var(--yellow);
+  font-weight: var(--weight);
+  font-size: 2em;
+}
+.color-different{
+  color: var(--yellow);
+}
+.contact-link
+{
+    background-color: var(--yellow);
+    border-radius: 20px;
+}
+.navbar.navbar-expand-md
+{
+    background-color: rgba(0, 0, 0, .0);
+}
+.banner
+{
+  background-image: url('../img/confetti-doodles\(1\).svg');
+}
+.btnbutton
+{
+  border: none;
+  background-color: var(--yellow);
+  color: white;
+  font-size: 14px;
+  font-weight: var(--weight);
+  border-radius: 3px;
+}
+.card
+{
+  border: none;
+}
+.welcome-section {
+  padding-bottom: 40px;
+}
+
+.welcome-section img {
+  width: 100%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.border {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  margin: 0 45%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.welcome-section h4 {
+  padding-top: 20px;
+  color: #777;
+}
+
+.welcome-section p {
+  padding-top: 20px;
+  color: #999;
+}
+
+.welcome-section:hover .border {
+  margin: 0 40%;
+}
+.welcome-section:hover .border {
+  border-color: var(--yellow);
+}
+.border
+{
+  border-color: var(--blue);
+} 
+
+.welcome-section:hover h4 {
+  color: var(--blue);
+}
+.services-button
+{
+  color: white;
+  background-color: var(--blue);
+  font-weight: var(--weight);
+  font-size: 14px;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.services-button:hover{
+  text-decoration: none;
+  color: white;
+  background-color: var(--blue);
+}
+.contact {
+  background: url(../img/BC-Blog_OnlineLearningChallenges_6.17.20_FTR.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ 
+  /*padding-bottom: 100px;*/
+}
+.contact-btn
+{
+
+}
+.contact-container
+{
+  margin-top: 100px;
+  padding: 25px 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.contact .btn-primary {
+  padding: 20px;
+  font-size: 16px;
+}
+
+.contact .btn-primary:hover {
+  background: transparent;
+}
+
+.contact .section-title h3{
+  color: #fff;
+}
+
+.contact .section-heading {
+  color: #fff;
+}
+
+.contact .form-group {
+  margin-bottom: 25px;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+  padding: 20px;
+}
+
+.contact .form-group input.form-control {
+  height: auto;
+}
+
+.contact .form-group textarea.form-control {
+  height: 236px;
+}
+
+.contact::-webkit-input-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+.contact:-moz-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+.contact::-moz-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+.contact:-ms-input-placeholder {
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #bbb;
+}
+
+.contact .text-danger {
+  color: #e74c3c;
+}
+
+.contact button {
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+footer.style-1 {
+  margin-top: 100px;
+  padding: 25px 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+footer.style-1 .copyright {
+  text-transform: uppercase;
+  text-transform: none;
+  color: #999;
+}
+footer.style-1 .copyright a{
+  color: var(--yellow);
+}
+
+.footer-contact-info {
+  color: var(--yellow);
+ 
+  margin-top: 80px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-contact-info ul {
+  list-style: none;
+  margin: 0;
+}
+
+.footer-contact-info h4 {
+  padding-bottom: 10px;
+}
+
+.footer-contact-info li strong {
+  font-weight: 600;
+
+}
+footer.style-1 .footer-social li a {
+  background: var(--yellow);
+}
+.contact .form-group textarea.form-control {
+  height: 248px;
+}
+.contact-title
+{
+  color: var(--yellow);
+}
+.footer-link
+{
+  display: inline-flex;
+}
+.footer-lin
+{
+  color: var(--yellow);
+  font-weight: var(--weight);
+}
+.footer-lin:hover
+{
+  text-decoration: none;
+  color: var(--yellow);
+  font-weight: var(--weight);
+}
+.style-1
+{
+  border-top: 1px solid var(--yellow);
+}
+.contact-btn
+{
+  border: none;
+  color: white;
+  background-color: var(--yellow);
+  font-weight: var(--weight);
+  border-radius: 3px;
+}
